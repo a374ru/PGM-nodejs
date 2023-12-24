@@ -8,9 +8,9 @@ Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labor
 <!-- Не удаляйте закомментированнные метки с префиксом: ystm_ -->
 <br>
 
- |||| 
- |:---|:---:|---:| 
- [←—— назад]( buki-page.md )|[ 3 ](#)|[далее ——→]( vedi-3.md ) 
+||||
+|:---|:---:|---:|
+[←—— назад](buki-page.md)|[3](#)|[далее ——→](vedi-3.md)
 
- <br>
+<br>
 <!--ystm_end-->
