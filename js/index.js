@@ -57,19 +57,14 @@ try {
 
 			// получаем содержимое файла для чтения и перезапись
 			for (let i = 0; i < data.length; i = i + 1) {
-				let ii = i;
-				// while (i < data.length - 2) {
-				if (ii === 0) {
+
+				if (i === 0) {
 					backward = "readme.md";
 				}
 				else {
-					backward = data[ii - 1];
+					backward = data[i - 1];
 				}
-				forward = data[ii + 1];
-
-				if (i == data.length - 1) {
-					forward = "readme.md"
-				}
+				forward = data[i + 1] ?? "readme.md";
 
 				// ТОЛЬКО СИНХРОННО `Sync`
 				let fileContent = fs.readFileSync(
@@ -77,7 +72,7 @@ try {
 
 				{
 					let filecontentLength = fileContent.length;
-					let twerdo_template = `<!--ystm_start-->\n<br>\n\n |||| \n |:---|:---:|---:| \n [←—— назад]( ${backward} )|[ 🔝 ](#)|[далее ——→]( ${forward} ) \n\n <br>\n<!--ystm_end-->\n`;
+					let twerdo_template = `<!--ystm_start-->\n<!-- Не удаляйте закомментированнные метки с префиксом: ystm_ -->\n<br>\n\n |||| \n |:---|:---:|---:| \n [←—— назад]( ${backward} )|[ ${i+1} ](#)|[далее ——→]( ${forward} ) \n\n <br>\n<!--ystm_end-->\n`;
 					// Вычисления и замена ссылок пагинации для иттерации.
 					let ystart = "<!--ystm_start-->";
 					let yend = "<!--ystm_end-->";
