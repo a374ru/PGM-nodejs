@@ -10,12 +10,14 @@
  
  a proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
 
+
 <!--ystm_start-->
+<!-- Не удаляйте закомментированнные метки с префиксом: ystm_ -->
 <br>
 
  |||| 
  |:---|:---:|---:| 
- [←—— назад]( readme.md )|[ 🔝 ](#)|[далее ——→]( buki-page.md ) 
+ [←—— назад]( readme.md )|[ 1 ](#)|[далее ——→]( buki-page.md ) 
 
  <br>
 <!--ystm_end-->
