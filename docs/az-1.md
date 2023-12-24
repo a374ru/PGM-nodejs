@@ -1,5 +1,3 @@
-
-
 # Title
 
  sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur 
@@ -13,9 +11,9 @@
 <!-- Не удаляйте закомментированнные метки с префиксом: ystm_ -->
 <br>
 
- |||| 
- |:---|:---:|---:| 
- [←—— назад]( readme.md )|[ 1 ](#)|[далее ——→]( buki-page.md ) 
+||||
+|:---|:---:|---:|
+[←—— назад](readme.md)|[ 1 ](#)|[далее ——→](buki-page.md)
 
  <br>
 <!--ystm_end-->
