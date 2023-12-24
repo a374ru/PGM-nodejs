@@ -72,7 +72,7 @@ try {
 
 				{
 					let filecontentLength = fileContent.length;
-					let twerdo_template = `<!--ystm_start-->\n<!-- Не удаляйте закомментированнные метки с префиксом: ystm_ -->\n<br>\n\n |||| \n |:---|:---:|---:| \n [←—— назад]( ${backward} )|[ ${i+1} ](#)|[далее ——→]( ${forward} ) \n\n <br>\n<!--ystm_end-->\n`;
+					let twerdo_template = `<!--ystm_start-->\n<!-- Не удаляйте закомментированнные метки с префиксом: ystm_ -->\n<br>\n\n||||\n|:---|:---:|---:|\n[←—— назад](${backward})|[${i+1}](#)|[далее ——→](${forward})\n\n<br>\n<!--ystm_end-->\n`;
 					// Вычисления и замена ссылок пагинации для иттерации.
 					let ystart = "<!--ystm_start-->";
 					let yend = "<!--ystm_end-->";
