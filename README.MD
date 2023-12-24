@@ -1,1 +1,3 @@
-# Скрипт NODEJS для создания пагинации в файлах Markdown# PGM-nodejs
+# Скрипт `NODE.JS` для создания пагинации в файлах `Markdown`
+
+[подробнее здесь…](docs/readme.md)
