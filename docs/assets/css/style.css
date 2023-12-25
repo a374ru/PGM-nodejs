@@ -5,34 +5,16 @@
 */
 
 
+
 :root {
 	--kino-var: #e34234;
 	--sizeDate-var: 1.1em;
 	--alink-var: #6b6b6b;
 	--blink-var: #860000;
-	--fontIrmUCS-var: Irmologion;
-	--font-var: Fontics;
 	--fontEvng-var: Evangeliecs;
 	--fontSize-H1: 1.7em;
 }
 
-@font-face {
-	font-family: "Fontics";
-	font-display: auto;
-	src: local("Fontics-Regular.otf"),
-		url("https://a374.ru/assets/font/Fontics-Regular.otf");
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Ystm";
-	font-display: auto;
-	src: local("Fontics-Regular.otf"),
-		url("https://a374.ru/assets/font/Ystm-Regular.otf");
-	font-weight: normal;
-	font-style: normal;
-}
 
 blockquote {
 	border-left: 3.2em solid #e9e2da;
@@ -44,7 +26,7 @@ blockquote {
 }
 
 body {
-	font-family: "Fontics";
+
 	margin: 3em;
 	padding-bottom: 12px;
 	color: #775738;
@@ -126,13 +108,13 @@ table {
 	color: #99769c;
 	padding: 1.5%;
 	transform: rotate(0deg);
-	box-shadow: 0px 0px 12px #00000022;
+	box-shadow: 0px 0px 4em #f9000021;
 	margin-bottom: 2em;
 	/* border-radius: 0.3em; */
-	/* background: #fffff0;
-border-left: 22px solid #fff;
-border-right: 22px solid #fff; */
-	/* font-family: monospace; */
+	/*! background: #fff0f0; */ /*! border-left: 22px solid #fff; */ /*! border-right: 22px solid #fff; */
+	/*! font-family: monospace; */
+	border-radius: 37% 32%;
+	padding-bottom: 1.5em;
 }
 
 td {
@@ -153,12 +135,17 @@ thead {
 	color: #6d5b6c;
 }
 
+h1:first-child {
+  font-size: 0.9em;
+	transform: rotate(0deg);
+text-transform: lowercase;
+}
+
 h1 {
 	font-size: var(--fontSize-H1);
 	text-transform: uppercase;
 	overflow-wrap: break-word;
 	transform: rotate(358deg);
-	font-family: "Fontics";
 }
 
 h1::first-letter {
