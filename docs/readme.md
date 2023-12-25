@@ -8,14 +8,16 @@
 ## Сорок префиксов:
 
 ```js
+
 azbuka = [
 'az', 'buki', 'vedi', 'glagol', 
-'dobro', 'esty', 'jivete', 'zemlya', 'selo', 
-'ige', 'ii', 'kakw', 'ludie', 'mislete', 'nash', 
-'on', 'pokoy', 'omega', 'rci', 'slovo', 'twerdo', 
-'uk', 'fert', 'her', 'wt', 'cii', 'cherv', 'sha', 
-'shya', 'er', 'eri', 'yaty', 'uy', 'ya', 'us', 
-'rsi', 'psi', 'fita', 'igica'
+'dobro', 'esty', 'jivete', 'zemlya', 
+'selo', 'ige', 'ii', 'kakw', 'ludie', 
+'mislete', 'nash', 'on', 'pokoy', 'omega',
+'rci', 'slovo', 'twerdo', 'uk', 'fert', 
+'her', 'wt', 'cii', 'cherv', 'sha', 'shya', 
+'er', 'eri', 'yaty', 'uy', 'ya', 'us', 
+'rsi', 'psi', 'fita', 'igica' 
 ]
 
 ```
