@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labor
 
 ||||
 |:---|:---:|---:|
-[←—— назад](buki-page.md)|[3](#)|[далее ——→](vedi-3.md)
+[← назад](buki-page.md)|[3](#)|[далее →](vedi-3.md)
 
 <br>
 <!--ystm_end-->

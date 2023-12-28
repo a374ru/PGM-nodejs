@@ -5,6 +5,7 @@
  */
 // import {twerdo_template} from './tempug.js'
 
+
 import fs from "fs";
 import path from "path";
 //////////////////////////////
@@ -42,7 +43,6 @@ try {
             }
           }
         }
-
         return fita_favoritePages;
       } else return "ПУСТО В ПАПКЕ !";
     })
@@ -62,17 +62,14 @@ try {
         // ТОЛЬКО СИНХРОННО `Sync`
         let fileContent = fs.readFileSync(
           `${az_path}docs/${data[i]}`,
-          "utf8",
-        );
+          "utf8"
+        )
 
         {
           let filecontentLength = fileContent.length;
 
           // В данном шаблоне-строке не должно быть пробелов между комментариями HTML
-          let twerdo_template =
-            `<!--ystm_start-->\n<!-- Не удаляйте закомментированнные метки с префиксом: ystm_ -->\n<br>\n\n||||\n|:---|:---:|---:|\n[←—— назад](${backward})|[${
-              i + 1
-            }](#)|[далее ——→](${forward})\n\n<br>\n<!--ystm_end-->\n`;
+          let twerdo_template =`<!--ystm_start-->\n<!-- Не удаляйте закомментированнные метки с префиксом: ystm_ -->\n<br>\n\n||||\n|:---|:---:|---:|\n[← назад](${backward})|[${i + 1}](#)|[далее →](${forward})\n\n<br>\n<!--ystm_end-->\n`;
           // Вычисления и замена ссылок пагинации для иттерации.
           let ystart = "<!--ystm_start-->";
           let yend = "<!--ystm_end-->";
@@ -107,10 +104,13 @@ try {
           if (a > 0 && filecontentLength > 7) {
             fs.writeFileSync(`${az_path}docs/${data[i]}`, updateContent);
           }
+        
         }
       }
       return data;
-    });
-} catch (error) {
+    })
+} 
+
+catch (error) {
   console.error(error, "Иногда бывает не совсем так, как хотелось бы нам!!!");
 }
